@@ -1,5 +1,6 @@
 ﻿namespace Digitalroot.Valheim.Common
 {
+  // ReSharper disable once UnusedType.Global
   public static class AssemblyInfo
   {
     public const string Title = "Digitalroot.Valheim.Common";
@@ -9,7 +10,8 @@
     public const string Product = "Digitalroot Valheim Mods";
     public const string Copyright = "Copyright © Digitalroot Technologies 2021";
     public const string Trademark = "";
-    public const string Culture = "";
-    public const string Version = "1.0.0";
+    public const string Culture = "en-US";
+    public const string Version = "1.0.1";
+    public const string Author = "Digitalroot";
   }
 }

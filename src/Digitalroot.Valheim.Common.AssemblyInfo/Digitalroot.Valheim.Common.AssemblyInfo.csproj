@@ -3,6 +3,7 @@
   <PropertyGroup>
     <AssemblyName>Digitalroot.Valheim.Common.AssemblyInfo</AssemblyName>
     <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.AssemblyInfo</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -19,12 +20,11 @@
     <Company>Digitalroot Technologies</Company>
     <Product>Digitalroot Valheim AssemblyInfo</Product>
     <Description>AssemblyInfo for Valheim</Description>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageVersion>1.0.1</PackageVersion>
     <AssemblyVersion>1.0.1</AssemblyVersion>
     <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

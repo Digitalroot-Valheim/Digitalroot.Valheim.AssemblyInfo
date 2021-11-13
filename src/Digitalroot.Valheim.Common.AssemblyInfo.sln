@@ -20,12 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F85B
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1CA83D97-8C6C-4EED-941A-D5A96891C41C}"
-	ProjectSection(SolutionItems) = preProject
-		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
-		..\.github\workflows\drafter.yml = ..\.github\workflows\drafter.yml
-		..\.github\workflows\publish.yml = ..\.github\workflows\publish.yml
-		..\.github\workflows\test-report.yml = ..\.github\workflows\test-report.yml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

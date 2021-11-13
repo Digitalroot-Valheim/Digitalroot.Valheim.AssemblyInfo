@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <AssemblyName>Digitalroot.Valheim.Common.AssemblyInfo</AssemblyName>
-    <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
-    <LangVersion>latest</LangVersion>
+    <TargetFrameworks>net462</TargetFrameworks>
+    <LangVersion>9</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.AssemblyInfo</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <Copyright>Copyright © Digitalroot Technologies 2021</Copyright>
@@ -22,9 +22,11 @@
     <Description>AssemblyInfo for Valheim</Description>
     <PackageReleaseNotes>Updated</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageVersion>1.0.1</PackageVersion>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <RestoreAdditionalProjectSources>
+	    https://nuget.bepinex.dev/v3/index.json;
+	    https://digitalroot-valheim-nuget.s3.us-west-2.amazonaws.com/index.json
+    </RestoreAdditionalProjectSources>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

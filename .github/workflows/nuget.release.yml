@@ -93,9 +93,10 @@ jobs:
           retention-days: 1
 
       - name: Save Sleet Config
+        run: wget https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Json/main/src/sleet.json
         uses: actions/upload-artifact@v2
         with:
-          path: ${{ github.workspace }}/src/sleet.json
+          path: ${{ github.workspace }}/sleet.json
           name: sleet-config
           retention-days: 1
 

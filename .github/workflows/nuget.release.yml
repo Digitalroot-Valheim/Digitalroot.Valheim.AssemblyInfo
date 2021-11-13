@@ -92,8 +92,10 @@ jobs:
           name: nuget-package
           retention-days: 1
 
-      - name: Save Sleet Config
+      - name: Download Sleet Config
         run: wget https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Json/main/src/sleet.json
+
+      - name: Save Sleet Config
         uses: actions/upload-artifact@v2
         with:
           path: ${{ github.workspace }}/sleet.json

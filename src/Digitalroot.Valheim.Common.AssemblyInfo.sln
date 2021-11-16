@@ -8,8 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{626E2B25-BD7E-4FA6-BAF3-E4FFB3A7F90C}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
-		..\LICENSE = ..\LICENSE
-		..\README.md = ..\README.md
 		ico\ValheimRcon_black.ico = ico\ValheimRcon_black.ico
 		ico\ValheimRcon_black.png = ico\ValheimRcon_black.png
 	EndProjectSection
@@ -19,6 +17,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1CA83D97-8C6C-4EED-941A-D5A96891C41C}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\nuget.release.yml = ..\.github\workflows\nuget.release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{16F99A33-CFE2-4169-8745-6E260D770AE6}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\LICENSE = ..\docs\LICENSE
+		..\docs\README.md = ..\docs\README.md
 	EndProjectSection
 EndProject
 Global
@@ -38,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F85B1B0D-4331-4297-8268-F0AB4F0B5589} = {626E2B25-BD7E-4FA6-BAF3-E4FFB3A7F90C}
 		{1CA83D97-8C6C-4EED-941A-D5A96891C41C} = {F85B1B0D-4331-4297-8268-F0AB4F0B5589}
+		{16F99A33-CFE2-4169-8745-6E260D770AE6} = {626E2B25-BD7E-4FA6-BAF3-E4FFB3A7F90C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4ACDDD0-875C-4A25-A289-AF5BF08A806A}

@@ -1,6 +1,7 @@
 # Digitalroot.Valheim.AssemblyInfo
 AssemblyInfo for Valheim Mods
 
+### Support Me @ https://www.buymeacoffee.com/digitalroot
 <br />
 <p align="center">
 <b>Digitalroot can be found in the Valhalla Legends Discord</b><br /><br />
